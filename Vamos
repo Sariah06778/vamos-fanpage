@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VAMOS - Libro de Terror</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Georgia', serif;
+      background-color: #0b0b0b;
+      color: #f5f5f5;
+      line-height: 1.6;
+    }
+
+    header {
+      background: url('https://images.unsplash.com/photo-1509915022664-7e3735f7290d?fit=crop&w=1350&q=80') no-repeat center center/cover;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 0 20px;
+    }
+
+    header h1 {
+      font-size: 4em;
+      margin-bottom: 20px;
+      color: crimson;
+      text-shadow: 2px 2px 5px black;
+    }
+
+    header p {
+      font-style: italic;
+      font-size: 1.2em;
+      max-width: 700px;
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    h2 {
+      color: crimson;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .personaje {
+      margin-bottom: 20px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #111;
+      color: #777;
+    }
+
+    a {
+      color: crimson;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>VAMOS</h1>
+    <p>A todas las almas que alguna vez amaron sin medida y sintieron el desgarro de la traición; y aquellas almas que han deseado volver en el tiempo para enmendar lo que hicieron mal.</p>
+  </header>
+
+  <section>
+    <h2>Sinopsis</h2>
+    <p>
+      En un pueblo donde el tiempo parece haberse detenido, un diario olvidado en una cabaña abandonada revela secretos que nunca debieron ser leídos. "VAMOS" no es solo un llamado, es una advertencia. Quien lo escucha... ya no puede escapar. ¿Estás dispuesto a seguir leyendo?
+    </p>
+  </section>
+
+  <section>
+    <h2>Personajes</h2>
+    <div class="personaje">
+      <strong>Elena:</strong> La joven que encontró el diario. Su inocencia se convierte en su mayor peligro.
+    </div>
+    <div class="personaje">
+      <strong>Iván:</strong> El antiguo dueño del diario. Su alma aún recorre los pasillos de la cabaña.
+    </div>
+    <div class="personaje">
+      <strong>La Voz:</strong> No tiene rostro, pero siempre está cerca. Susurra lo que más temes recordar.
+    </div>
+  </section>
+
+  <section>
+    <h2>Fragmento Exclusivo</h2>
+    <p>
+      "Vamos... decía una y otra vez esa voz. No sabía de dónde venía, pero la escuchaba como si estuviera dentro de mí. La luz temblaba. Mi respiración se hacía más lenta. Y cada paso que daba hacia la puerta... era uno más lejos de volver."
+    </p>
+  </section>
+
+  <section>
+    <h2>Sobre la Autora</h2>
+    <p>
+      Saríah es una apasionada por la mente humana, el misterio del tiempo y los rincones oscuros del alma. "VAMOS" es su primera obra de terror psicológico, inspirada en emociones reales llevadas al extremo.
+    </p>
+  </section>
+
+  <section>
+    <h2>Contacto y Redes</h2>
+    <p>
+      📧 contacto@sariahlibros.com<br>
+      📷 <a href="#">Instagram</a> | 🐦 <a href="#">Twitter</a> | 📘 <a href="#">Facebook</a>
+    </p>
+  </section>
+
+  <footer>
+    © 2025 VAMOS | Todos los derechos reservados
+  </footer>
+
+</body>
+</html>
